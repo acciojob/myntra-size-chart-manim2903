@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+table, th, td{
+	border:2px solid black;
+	border-collapse:collapse;
+}
+th{
+	background-color:tomato;
+	text-align:left;
+}
+td{
+	text-align:right;
+}
+table{
+	width:100%;
+}
+tbody th{
+	background-color:gray;
+}
